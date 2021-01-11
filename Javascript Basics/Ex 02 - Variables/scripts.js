@@ -1,3 +1,7 @@
+// --------------------------------
+// ---------Variables--------------
+// --------------------------------
+
 // ----Primitive Data Types----
 /* Number - Floating point numbers, for decimals and integers
    String - Sequence of characters, used for text
@@ -13,8 +17,7 @@ var firstName = 'Chamara';
 var lastName = 'Perera';
 var age = 26;
 var isOk = true;
-var job;
-var height;
+var job, height;
 
 // Print only variable
 console.log(firstName);
@@ -23,6 +26,11 @@ console.log('My name is '+lastName);
 console.log('My age is '+age);
 console.log('It is '+isOk);
 console.log('I am a '+job);
+
+// Get variable type
+console.log(typeof(lastName));
+console.log(typeof(age));
+console.log(typeof(isOk));
 
 // Define (Variable mutation)
 job = 'Doctor';
