@@ -2,7 +2,7 @@
 // ---------Variables--------------
 // --------------------------------
 
-// ----Primitive Data Types----
+// --Primitive Data Types--
 /* Number - Floating point numbers, for decimals and integers
    String - Sequence of characters, used for text
    Boolean - Logical data type that can only be true or false
@@ -31,6 +31,7 @@ console.log('I am a '+job);
 console.log(typeof(lastName));
 console.log(typeof(age));
 console.log(typeof(isOk));
+console.log(typeof(job));
 
 // Define (Variable mutation)
 job = 'Doctor';
