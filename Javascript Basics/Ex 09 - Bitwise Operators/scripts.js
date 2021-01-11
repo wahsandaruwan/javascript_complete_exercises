@@ -32,3 +32,10 @@ console.log(6 >> 1);
 
 // Zero fill right shift
 console.log(6 >>> 1);
+
+// --Convert decimal to binary--
+console.log((12).toString(2));
+
+// --Convert binary to decimal--
+console.log((0b1100).toString(10));
+console.log(parseInt("1100", 2));
