@@ -8,7 +8,7 @@ console.log(myName);
 
 // Addition with equal
 var age = 24;
-age += 10;
+age += 10; // age = age + 10
 console.log(age);
 
 // Substraction with equal
