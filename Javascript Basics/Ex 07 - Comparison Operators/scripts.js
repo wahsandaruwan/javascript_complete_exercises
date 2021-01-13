@@ -15,7 +15,7 @@ if(a == b){
     }
     // Not equal value or not equal type
     else if(a !== b){
-        console.log('Only value of a is equal to b');
+        console.log('Only value or type of a is equal to b');
     }
 }
 // Greater than or equal to
@@ -42,6 +42,13 @@ else if(a != c){
 else{
     // Less than or equal to
     if(c <= d){
+        // if(c <= 5){
+        //     console.log('c is less than or equal to 5');
+        // }
+        // else{
+        //     console.log('c is greater than to 5');
+        // }
+        
         // Ternary operator
         c <= 5 ? console.log('c is less than or equal to 5') : console.log('c is greater than to 5');
     }

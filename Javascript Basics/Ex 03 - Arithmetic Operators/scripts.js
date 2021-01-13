@@ -2,7 +2,7 @@
 // ------Arithmetic Operators------
 // --------------------------------
 
-// Single Operators
+// --Single Operators--
 var myAge, yourAge, year, result;
 myAge = 26;
 yourAge = 20;
@@ -31,17 +31,17 @@ console.log('Exponent of my age '+(myAge**2));
 
 // Increment
 console.log(myAge++);
-console.log('Post Increment of my age '+(myAge));
+console.log('Post Increment of my age '+myAge);
 
 console.log(++myAge);
-console.log('Pre Increment of my age '+(myAge));
+console.log('Pre Increment of my age '+myAge);
 
 // Decrement
 console.log(myAge--);
-console.log('Post Decrement of my age '+(myAge));
+console.log('Post Decrement of my age '+myAge);
 
 console.log(--myAge);
-console.log('Pre Decrement of my age '+(myAge));
+console.log('Pre Decrement of my age '+myAge);
 
 
 // --Operator Precedence--

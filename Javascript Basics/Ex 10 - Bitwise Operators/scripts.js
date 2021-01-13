@@ -16,25 +16,25 @@ console.log(5 & 1);
 console.log(5 | 1)
 
 // Not
-// 5  - 0000000000000000000000000000 0110
-// ~x - 1111111111111111111111111111 1001
-// (2 ^ 23 -1 -5)
-console.log(~6);
+// 5  - 0000000000000000000000000000 0101
+// ~5 - 1111111111111111111111111111 1010
+// (2 ^ 32)- 1 - 5
+console.log(~5);
 
 // Xor
-console.log(6 ^ 1);
+console.log(5 ^ 1);
 
 // Zero fill left shift
-console.log(6 << 1);
+console.log(5 << 1);
 
 // Signed right shift
-console.log(6 >> 1);
+console.log(5 >> 1);
 
 // Zero fill right shift
-console.log(6 >>> 1);
+console.log(5 >>> 1);
 
 // --Convert decimal to binary--
-console.log((12).toString(2));
+console.log((10).toString(2));
 
 // --Convert binary to decimal--
 console.log((0b1100).toString(10));
