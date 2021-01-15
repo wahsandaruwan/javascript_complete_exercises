@@ -22,7 +22,7 @@ function subNumbers(num1, num2){
 }
 
 // Calling functions
-addNumbers(20, 44.5);
+addNumbers(20, 32.5);
 
 var sub = subNumbers(30, 12);
 console.log("Substraction :"+sub);

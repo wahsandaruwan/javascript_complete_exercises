@@ -22,4 +22,4 @@ var profession = function(job, firstName){
 // Calling
 console.log(profession('doctor', 'Kasun'));
 console.log(profession('engineer', 'Sashini'));
-console.log(profession('professor', 'kamal'));
+console.log(profession('professor', 'Kamal'));

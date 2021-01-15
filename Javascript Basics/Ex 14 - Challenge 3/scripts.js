@@ -15,7 +15,7 @@
 var tips = new Array();
 var amount = new Array();
 
-// Function 
+// Function
 function tipCalculator(bill){
     var tip;
     if(bill < 1000){
@@ -32,7 +32,7 @@ function tipCalculator(bill){
     }
 
     // Store in array
-    tips.push(bill);
+    tips.push(tip);
     amount.push(bill+tip);
 
     return tip;

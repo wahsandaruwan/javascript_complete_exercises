@@ -43,7 +43,7 @@ var nimal = {
     }
 }
 
-// Get Values
+// Get values
 console.log(nimal);
 console.log(nimal.firstName);
 console.log(nimal['lastName']);
@@ -54,9 +54,9 @@ console.log(nimal['subjects'][3]);
 console.log(nimal.degree.name);
 console.log(nimal['degree'].credits);
 console.log(nimal.projects[1].technology);
-console.log('Date of Birth : '+nimal.yearOfBirth(2021));
+console.log('Year of Birth : '+nimal.yearOfBirth(2021));
 
-// Modify Values
+// Modify values
 nimal.job = 'Engineer';
 nimal['isMarried'] = true;
 console.log(nimal);

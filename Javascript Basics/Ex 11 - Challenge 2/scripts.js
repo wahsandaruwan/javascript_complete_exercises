@@ -10,7 +10,6 @@
     3. Then change scores to show different winners. Don't forget to take into account there might be a draw (same average score)
 */
 
-
 var score1, score2, score3, averageSri, averageEng;
 
 // Sri Lanka average
