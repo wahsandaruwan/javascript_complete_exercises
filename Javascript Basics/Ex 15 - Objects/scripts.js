@@ -63,6 +63,7 @@ console.log(nimal);
 
 // --new Objetc syntax--
 var kasun = new Object();
+// Add Properties
 kasun.firstName = 'Kasun';
 kasun.lastName = 'Fernando';
 kasun['age'] = 30;
