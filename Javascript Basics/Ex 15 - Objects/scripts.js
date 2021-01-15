@@ -38,7 +38,7 @@ var nimal = {
             version: 2.0
         }
     ],
-    dateOfBirth: function(year){
+    yearOfBirth: function(year){
         return year-this.age;
     }
 }
@@ -54,7 +54,7 @@ console.log(nimal['subjects'][3]);
 console.log(nimal.degree.name);
 console.log(nimal['degree'].credits);
 console.log(nimal.projects[1].technology);
-console.log('Date of Birth : '+nimal.dateOfBirth(2021));
+console.log('Date of Birth : '+nimal.yearOfBirth(2021));
 
 // Modify Values
 nimal.job = 'Engineer';
