@@ -61,7 +61,7 @@ nimal.job = 'Engineer';
 nimal['isMarried'] = true;
 console.log(nimal);
 
-// --new Objetc syntax--
+// --new Object syntax--
 var kasun = new Object();
 // Add Properties
 kasun.firstName = 'Kasun';
