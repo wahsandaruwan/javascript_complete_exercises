@@ -4,7 +4,7 @@
 
 // --Try Catch--
 /*
-    try - Lest you test a block of code for errors
+    try - Let you test a block of code for errors
     catch - Lets you handle the error
     throw -  lets you create custom errors
     finally - lets you execute code, after try and catch, regardless of the result
