@@ -13,8 +13,7 @@ console.log(document.title);
 console.log(document.doctype);
 
 console.log(document.head);
-console.log(document.body.children[0]);
-console.log(document.body.children[0].children[0]);
+console.log(document.body);
 
 console.log(document.all);
 console.log(document.all[11]);
@@ -28,8 +27,8 @@ document.title = "Document Object Model";
 console.log(document.title);
 
 // --Not the best way--
-document.body.children[0].children[0].textContent = "Shopping Item List"
-console.log(document.body.children[0].children[0]);
+document.all[16].textContent = "Shopping Item List"
+console.log(document.all[16]);
 
 // -----------------------------------
 
