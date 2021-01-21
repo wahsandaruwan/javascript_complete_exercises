@@ -27,7 +27,7 @@ document.title = "Document Object Model";
 console.log(document.title);
 
 // --Not the best way--
-document.all[16].textContent = "Shopping Item List"
+document.all[11].textContent = "Shopping Item List"
 console.log(document.all[16]);
 
 // -----------------------------------
@@ -115,7 +115,7 @@ var item = document.querySelector('.items:nth-child(even)');
 item.style.backgroundColor = '#ebca14';
 
 // --Mix Selectors--
-var item = document.querySelector('div .frm #frmt');
+var it = document.querySelector('div .frm #frmt');
 item.style.color = '#eb1478';
 
 // -----------------------------------

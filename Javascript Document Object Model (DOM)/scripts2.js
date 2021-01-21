@@ -52,7 +52,7 @@ console.log(itemList.nextSibling);
 
 // ---Next Element Sibling---
 console.log(itemList.nextElementSibling);
-itemList.nextElementSibling.style.backgroundColor = '#fff';
+itemList.nextElementSibling.style.backgroundColor = '#ebca14';
 
 // ---Previous Sibling---
 // Work like childnodes
@@ -66,7 +66,7 @@ itemList.previousElementSibling.style.backgroundColor = '#fff';
 
 // ---Create an Element---
 
-// --Create a Input--
+// --Create an Input--
 var input = document.createElement('input');
 
 // Add a Class
