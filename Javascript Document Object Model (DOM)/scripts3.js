@@ -175,16 +175,16 @@ function typeOfEvent1(e){
 // --Different types of events for keyboard--
 var keyInput = document.querySelector('input[type="text"]');
 
-keyInput.addEventListener('keydown', typeOfEvent2);
-keyInput.addEventListener('keyup', typeOfEvent2);
-keyInput.addEventListener('keypress', typeOfEvent2);
+// keyInput.addEventListener('keydown', typeOfEvent2);
+// keyInput.addEventListener('keyup', typeOfEvent2);
+// keyInput.addEventListener('keypress', typeOfEvent2);
 
-keyInput.addEventListener('focus', typeOfEvent2);
-keyInput.addEventListener('blur', typeOfEvent2);
+// keyInput.addEventListener('focus', typeOfEvent2);
+// keyInput.addEventListener('blur', typeOfEvent2);
 
-keyInput.addEventListener('copy', typeOfEvent2);
-keyInput.addEventListener('cut', typeOfEvent2);
-keyInput.addEventListener('paste', typeOfEvent2);
+// keyInput.addEventListener('copy', typeOfEvent2);
+// keyInput.addEventListener('cut', typeOfEvent2);
+// keyInput.addEventListener('paste', typeOfEvent2);
 
 keyInput.addEventListener('input', typeOfEvent2);
 
@@ -201,7 +201,7 @@ function typeOfEvent2(e){
 var select = document.querySelector('select');
 
 // select.addEventListener('change', typeOfEvent3);
-// select.addEventListener('input', typeOfEvent3);
+select.addEventListener('input', typeOfEvent3);
 
 function typeOfEvent3(e){
     console.log('Event type : '+e.type);
