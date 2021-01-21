@@ -66,6 +66,26 @@
             border-radius: 10px;
             margin-bottom: 2px;
         }
+
+        /* Bubbling & Capturing */
+        #myDiv1, #myDiv2 {
+            background-color: coral;
+            padding: 50px;
+        }
+
+        #myP1, #myP2 {
+            background-color: white; 
+            font-size: 20px;
+            border: 1px solid;
+            padding: 20px;
+        }
+
+        /* Event Types */
+        #box{
+            width: 500px;
+            height: 300px;
+            background-color: #c0b25f;
+        }
     </style>
 </head>
 <body>
@@ -79,8 +99,15 @@
             <h3 style="text-transform: uppercase;" id="frmt">Add Items</h3>
             <form action="">
                 <input type="text">
-                <button>Submit</button>
+                <select>
+                    <option value="red">Red</option>
+                    <option value="green">Green</option>
+                    <option value="blue">Blue</option>
+                    <option value="yellow">Yellow</option>
+                </select>
+                <button type="submit">Submit</button>
             </form>
+            <div id="out"></div>
         </div>
         <div class="list">
             <h3>Shopping Items</h3>
@@ -95,9 +122,33 @@
                 <h6>testing...</h6>
             </div>
         </div>
+        <div id="output"></div>
+        <!-- Events -->
         <!-- <button onclick="btnClick(this.textContent)" class="c-btn">Click Here</button> -->
         <button id="c-btn">Click Here</button>
         <button id="i-btn">Change Items</button>
+        <button id="e-btn" class="sample btn kvc">Sample Button</button>
+        
+        <!-- Bubbling & Capturing -->
+        <div id="myDiv1">
+            <h2>Bubbling:</h2>
+            <p id="myP1">Click me!</p>
+        </div><br>
+          
+        <div id="myDiv2">
+            <h2>Capturing:</h2>
+            <p id="myP2">Click me!</p>
+        </div><br>
+
+        <!-- Remove Event Listener -->
+        <button id="ev-btn">Click the Button</button>
+        <button id="rm-btn">Remove the Event</button><br><br>
+
+        <!-- Event Types -->
+        <button id="t-btn">Events</button><br><br>
+        <div id="box">
+            <h2>How are you!</h2>
+        </div>
     </div>
 
     <!-- Script -->
