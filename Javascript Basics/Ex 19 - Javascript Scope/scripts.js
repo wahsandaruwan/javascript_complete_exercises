@@ -17,18 +17,8 @@ function addNum(){
 }
 
 // Calling
-addNum();
-// console.log(a);
+// addNum();
+console.log(a);
 
 // --Global Variables--
 // A variable declared outside a function, All scripts and functions on a web page can access it. In a web browser, global variables are deleted when you close the browser window (or tab)
-var subject = "Maths";
-function mySub(){
-    console.log("My favourite subject is "+subject);
-    subject = "Science";
-}
-
-// Calling
-mySub();
-mySub();
-console.log(subject);
